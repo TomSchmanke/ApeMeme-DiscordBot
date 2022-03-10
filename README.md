@@ -1,4 +1,4 @@
-# VoteKick-DiscordBot
+# ApeMeme-DiscordBot
 
 ApeMeme-DiscordBot is a Discord Bot written in Node.js to bring more memes in your live.
 Users will be able to requst where-ape-memes with custom content, which will be send in your discord channel.
@@ -38,7 +38,7 @@ node index.js
 
 3. Alternative to step 2: Deploy inside a screen session:
 ```bash
-screen -dmS voteKickBot node index.js
+screen -dmS apememeBot node index.js
 ```
 
 ## Special thanks
