@@ -1,0 +1,25 @@
+{
+  "name": "apememe-discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node index.js",
+    "bot-prod": "forever start --minUptime 2000 --spinSleepTime 2000 index.js",
+    "stop": "forever stopall",
+    "logs": "forever logs",
+    "deploy-commands-dev": "node deploy-commands-dev.js",
+    "deploy-commands-prod": "node deploy-commands-prod.js"
+  },
+  "keywords": [],
+  "author": "Tom Schmanke",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.1",
+    "discord.js": "^13.6.0",
+    "forever": "^4.0.3",
+    "jimp": "^0.16.1"
+  }
+}
