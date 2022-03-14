@@ -25,7 +25,7 @@ module.exports = {
         Jimp.read(imageName)
         .then(image => {
 						loadedImage = image;
-            Jimp.loadFont(Jimp.FONT_SANS_16_WHITE)
+            Jimp.loadFont(Jimp.FONT_SANS_16_BLACK)
               .then(font => {
 								loadedImage.print(font, xCoordinate, yCoordinate, whereMessage).getBufferAsync(Jimp.MIME_JPEG)
                   .then(buffer => {
